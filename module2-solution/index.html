@@ -21,12 +21,17 @@ p {
   height: 150px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica; 
+  font-family: Helvetica;
 }
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+}
+
+#box {
+  background-color: rgba(198, 206, 204, 0.986);
+  margin: 35px;
 }
 
 @media (min-width: 992px) {
@@ -117,12 +122,13 @@ p {
 
 
 #p1 {
-  background-color: #A52A2A;
+  background-color: rgb(211, 138, 138);
+  border: 1px solid black;
   position: relative;
   top: 0;
-  left: 265px;
-  width: 70px;
-  height: 40px;
+  left: 0;
+  width: 90px;
+  height: 30px;
   margin-bottom: 10px;
   text-align: center;
   margin: 0;
@@ -130,12 +136,13 @@ p {
 }
 
 #p2 {
-  background-color: #A52A2A;
+  background-color: rgb(235, 79, 79);
+  border: 1px solid black;
   position: relative;
   top: 0;
-  left: 265px;
-  width: 70px;
-  height: 40px;
+  left: 0;
+  width: 90px;
+  height: 30px;
   margin-bottom: 10px;
   text-align: center;
   margin: 0;
@@ -143,12 +150,13 @@ p {
 }
 
 #p3 {
-  background-color: #A52A2A;
+  background-color: rgb(226, 224, 116);
+  border: 1px solid black;
   position: relative;
   top: 0;
-  left: 265px;
-  width: 70px;
-  height: 40px;
+  left: 0;
+  width: 90px;
+  height: 30px;
   margin-bottom: 10px;
   text-align: center;
   margin: 0;
@@ -161,27 +169,21 @@ p {
 <h1>Our Menu</h1>
 
 <div class="row">
-  <div class="col-lg-3 col-md-6 col-md-6"> 
+  <div class="col-lg-3 col-md-5" id="box"> 
     <p id="p1">Chicken</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat sed sagittis dolor iaculis. Donec condimentum mauris nec eros auctor sed vestibulum tellus consequat. Pellentesque tincidunt hendrerit neque, tincidunt tempus mauris consequat non.</p>
   </div>
-</div>
 
-<div class="row">
-  <div class="col-lg-3 col-md-6 col-md-6"> 
+  <div class="col-lg-3 col-md-5" id="box"> 
     <p id="p2">Beet</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat sed sagittis dolor iaculis. Donec condimentum mauris nec eros auctor sed vestibulum tellus consequat. Pellentesque tincidunt hendrerit neque, tincidunt tempus mauris consequat non.</p>
   </div>
-</div>
 
-<div class="row">
-  <div class="col-lg-3 col-md-6 col-md-6"> 
+  <div class="col-lg-3 col-md-11" id="box"> 
     <p id="p3">Suchi</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat sed sagittis dolor iaculis. Donec condimentum mauris nec eros auctor sed vestibulum tellus consequat. Pellentesque tincidunt hendrerit neque, tincidunt tempus mauris consequat non.</p>
   </div>
 </div>
-
-
 
 </body>
 </html>
